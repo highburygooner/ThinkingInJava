@@ -20,6 +20,7 @@ class TaskWithResult implements Callable{
 
 	public Object call() throws Exception {
 		// TODO Auto-generated method stub
+		System.out.println();
 		return "Result of Task "+id;
 	}
 	
